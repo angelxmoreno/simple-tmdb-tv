@@ -1,0 +1,45 @@
+{
+    "name": "simple-tmdb-tv",
+    "version": "1.0.0",
+    "description": "A simple TMDB cient for fetching TV information.",
+    "main": "./index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [
+        "TMDB",
+        "TV",
+        "metadata"
+    ],
+    "author": {
+        "name": "Angel S. Moreno",
+        "email": "angelxmoreno@gmail.com",
+        "url": "https://angelxmoreno.github.io/"
+    },
+    "contributors": [
+        {
+            "name": "Angel S. Moreno",
+            "email": "angelxmoreno@gmail.com",
+            "url": "https://angelxmoreno.github.io/"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/angelxmoreno/simple-tmdb-tv#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angelxmoreno/simple-tmdb-tv.git"
+    },
+    "bugs": {
+        "url": "https://github.com/angelxmoreno/simple-tmdb-tv/issues"
+    },
+    "dependencies": {
+        "bluebird": "^3.3.4",
+        "merge": "^1.2.0",
+        "requestify": "^0.1.17",
+        "requestify-pouchdb": "^1.0.0"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^2.4.5"
+    }
+}
